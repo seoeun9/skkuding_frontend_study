@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+        
+        <style>
+            header{
+                font-size: 30px;
+                color: rgb(255, 200, 0);
+                text-align: left;
+                font-family: "Jua", sans-serif;
+                border-bottom: 2px solid rgb(255, 200, 0);
+                padding: 15px;
+                background-color: black;
+            }
+
+            #text{
+                font-size: 35px;
+                color: white;
+                text-align: center;
+                vertical-align: middle;
+                font-family: "Jua", sans-serif;
+                transform: translateY(40px);
+            }
+
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: black;
+            }
+
+            #title{
+                position: relative;
+                left: 50px;
+            }
+
+            a{
+                color: rgb(255, 200, 0);
+                text-decoration: none;
+            }
+
+            img{
+                width: 30%;
+                max-width: 500px; 
+                height: auto; 
+                border-radius: 5px;
+                border: 2px solid rgb(255, 200, 0);
+                position: absolute;
+                left: 50%;
+                top: 25%;
+                transform: translate(-50%, -50%);
+            }
+
+            .container{
+                border: 0.5px solid rgb(255, 200, 0);
+                height: 550px;
+                width: 600px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                left: 50%;
+                top: 55%;
+                transform: translate(-50%, -50%);
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+            <div id="title">
+                <a href="pockemon.html">Pokemon List</a>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="item">
+                <img src="lichu.jpeg">
+                <div id="text">라이츄</div>
+                <div id="text">특징 : 귀여움</div>
+            </div>
+        </div>
+    </body>
+</html>

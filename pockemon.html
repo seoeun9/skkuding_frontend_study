@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+        
+        <style>
+            header{
+                font-size: 30px;
+                color: rgb(255, 200, 0);
+                text-align: left;
+                font-family: "Jua", sans-serif;
+                border-bottom: 2px solid rgb(255, 200, 0);
+                padding: 15px;
+                background-color: black;
+            }
+
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: black;
+            }
+
+            #name{
+                font-size: 20px;
+                color: white;
+                font-family: "Jua", sans-serif;
+                position: relative;
+                left: 70%;
+                top: 30%;
+            }
+
+            #title{
+                position: relative;
+                left: 50px;
+            }
+
+            a{
+                color: rgb(255, 200, 0);
+                text-decoration: none;
+            }
+
+            img{
+                width: 15%;
+                max-width: 500px; 
+                height: auto; 
+                border-radius: 10px;
+                position: relative;
+                left: 70px;
+                bottom: 17px;
+            }
+
+            .container{
+                display: flex;
+                flex-direction: row;
+                height: 90vh;
+                width: 100vw;
+                justify-content: center; /* 가운데 정렬 */
+                align-items: center;
+                gap: 200px; /* 좌우 간격 */
+
+            }
+            
+            .left{
+                display: flex;
+                flex-direction: column; /* 세로 정렬 */
+                gap: 50px; /* 아이템 간격 */
+            }
+
+            .right{
+                display: flex;
+                flex-direction: column; /* 세로 정렬 */
+                gap: 50px; /* 아이템 간격 */
+            }
+
+            .item{
+                height: 60px;
+                width: 300px;
+                background-color: black;
+                border: 0.5px solid white;
+                border-radius: 10px;
+                flex-shrink: 0;
+            }
+
+            .item:hover {
+               background-color: black;
+               border: 0.5px solid rgb(255, 200, 0);
+               border-radius: 10px;
+               flex-shrink: 0;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+            <div id="title">
+                <a href="pockemon.html">Pokemon List</a>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class = "left">               
+                <a href="kkobugi.html">     
+                    <div class="item">
+                        <div id="name">꼬부기</div>
+                        <img src="kkobugi.jpg">
+                    </div>
+                </a>
+                <a href="pikachu.html">  
+                    <div class="item">
+                        <div id="name">피카츄</div>
+                        <img src="pikachu.jpeg">
+                    </div>
+                </a>
+                <a href="firi.html">
+                    <div class="item">
+                        <div id="name">파이리</div>
+                        <img src="firi.jpeg">
+                    </div>
+                </a>
+                <a href="pang.html">
+                    <div class="item">
+                        <div id="name">팽도리</div>
+                        <img src="pang.jpeg">
+                    </div>
+                </a>
+                <a href="purin.html">
+                    <div class="item">
+                        <div id="name">푸린</div>
+                        <img src="purin.jpeg">
+                    </div> 
+                </a>
+            </div>
+            
+            <div class = "right">            
+                <a href="lichu.html">
+                    <div class="item">
+                        <div id="name">라이츄</div>
+                        <img src="lichu.jpeg">
+                    </div>
+                </a>
+                <a href="eve.html">
+                    <div class="item">
+                        <div id="name">이브이</div>
+                        <img src="eve.jpeg">
+                    </div>
+                </a>
+                <a href="strangeseed.html">
+                    <div class="item">
+                        <div id="name">이상해씨</div>
+                        <img src="strangeseed.jpeg">
+                    </div>
+                </a>
+                <a href="meow.html">
+                    <div class="item">
+                        <div id="name">나옹</div>
+                        <img src="meow.jpeg">
+                    </div>
+                </a>
+                <a href="king.html">
+                    <div class="item">
+                        <div id="name">거북왕</div>
+                        <img src="king.jpeg">
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </body>
+</html>
