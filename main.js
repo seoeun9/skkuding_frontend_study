@@ -1,4 +1,4 @@
-"use strict";
+
 const data = [{
         name: "Bulbasaur",
         height: "7",
@@ -164,7 +164,6 @@ data.forEach(item => {
     types.innerText = `Types: ${item.types.join(", ")}`;
     text.append(name, height, weight, types);
     card.append(img, text);
-    if (container) {
-        container.appendChild(card);
-    }
+    container.appendChild(card);
+
 });
